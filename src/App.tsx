@@ -1,14 +1,12 @@
-import { useState } from 'react';
+import type { FC } from 'react';
+import { Button } from 'antd';
+import 'antd/dist/reset.css';
 import './App.css';
 
-function App() {
-	return (
-		<div>
-			<h1>Sales Invoice</h1>
-			<span>Date</span>
-			<span>Acc. Name</span>
-		</div>
-	);
-}
+const App: FC = () => (
+	<div className='App'>
+		<Button type='primary'>Button</Button>
+	</div>
+);
 
 export default App;
