@@ -1,11 +1,11 @@
 import type { FC } from 'react';
-import { Button } from 'antd';
 import 'antd/dist/reset.css';
 import './App.css';
+import MenuBar from './components/MenuBar/MenuBar';
 
 const App: FC = () => (
 	<div className='App'>
-		<Button type='primary'>Button</Button>
+		<MenuBar />
 	</div>
 );
 
